@@ -1,0 +1,22 @@
+{
+  "Seurat": {
+    "format": "combined_h5ad",
+    "path": "/REPLACE/Seurat/BMMC/{ratio}/integrated_embedding.h5ad",
+    "embedding_key": "X_pca",
+    "cell_id_key": "cell_id",
+    "modality_key": "modality"
+  },
+  "GLUE": {
+    "format": "two_h5ad",
+    "rna_path": "/REPLACE/GLUE/BMMC/{ratio}/rna_embedding.h5ad",
+    "atac_path": "/REPLACE/GLUE/BMMC/{ratio}/atac_embedding.h5ad",
+    "embedding_key": "X_glue"
+  },
+  "scMRDR": {
+    "format": "combined_h5ad",
+    "path": "/REPLACE/scMRDR/BMMC/{ratio}/integrated_embedding.h5ad",
+    "embedding_key": "X_latent",
+    "cell_id_key": "cell_id",
+    "modality_key": "modality"
+  }
+}
